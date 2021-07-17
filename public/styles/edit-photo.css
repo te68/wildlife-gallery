@@ -1,0 +1,130 @@
+#edit-photo-window{
+  background-color: white;
+  border-radius: 15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  margin-top: -300px;
+  margin-left: -300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#edit-photo-window h1{
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 20px;
+  width: 400px;
+}
+
+.hidden{
+  display: none;
+}
+
+#edit-form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+#edit-form label{
+  width: 18%;
+  text-align: left;
+  font-size: 16px;
+}
+
+#edit-description-container{
+  align-items: flex-start;
+}
+
+#edit-description-label{
+  margin-top: 5px;
+}
+
+#edit-form textarea{
+  margin-left: 7px;
+  font-size: 16px;
+  width: 410px;
+  height: 137px;
+  resize: none;
+}
+
+#edit-submit-container{
+  text-align: right;
+}
+
+#edit-submit-button{
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: 88px;
+  padding: 7px;
+  border: none;
+  box-shadow: 1px 1px 2px 0 rgb(136, 136, 136);
+  cursor: pointer;
+}
+
+.edit-feedback{
+  margin-left: 87px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(181, 0, 0);
+}
+
+#edit-form-note-container{
+  display: flex;
+  flex-direction: row;
+}
+
+#edit-form-note-container span{
+  margin-right: 4px;
+}
+
+#edit-note{
+  color: rgb(181, 0, 0);
+}
+
+.edit-star{
+  color: rgb(181, 0, 0);
+  margin-left: 4px;
+  align-self: flex-start;
+}
+
+#edit-photo-upload-message{
+  color: green;
+  margin: auto;
+  margin-top: 175px;
+  margin-bottom: 25px;
+  width: 75%;
+  border: 5px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+#edit-upload-success-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#edit-upload-success-container a{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 1px 1px 2px 0 rgb(136, 136, 136);
+}

@@ -1,0 +1,150 @@
+#new-photo-window{
+  background-color: white;
+  border-radius: 15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 600px;
+  height: 600px;
+  margin-top: -300px;
+  margin-left: -300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#new-photo-window h1{
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 20px;
+}
+
+.hidden{
+  display: none;
+}
+
+#photo-form{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.input-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+#photo-form label{
+  width: 18%;
+  text-align: left;
+  font-size: 16px;
+}
+
+#upload{
+  width: 176px;
+}
+
+.text-input{
+  width: 250px;
+  height: 25px;
+  font-size: 16px;
+  border: 1px solid black;
+}
+
+#description-container{
+  align-items: flex-start;
+}
+
+#description-label{
+  margin-top: 5px;
+}
+
+textarea{
+  margin-left: 7px;
+  font-size: 16px;
+  border: 1px solid black;
+  width: 410px;
+  height: 137px;
+  resize: none;
+}
+
+#submit-container{
+  text-align: right;
+}
+
+#submit-button{
+  margin-top: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  width: 88px;
+  padding: 7px;
+  border: none;
+  box-shadow: 1px 1px 2px 0 rgb(136, 136, 136);
+  cursor: pointer;
+}
+
+.feedback{
+  margin-left: 87px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: rgb(181, 0, 0);
+}
+
+#form-note-container{
+  display: flex;
+  flex-direction: row;
+}
+
+#form-note-container span{
+  margin-right: 4px;
+}
+
+#note{
+  color: rgb(181, 0, 0);
+}
+
+.star{
+  color: rgb(181, 0, 0);
+  margin-left: 4px;
+  align-self: flex-start;
+}
+
+#photo-upload-message{
+  color: green;
+  margin: auto;
+  margin-top: 175px;
+  margin-bottom: 25px;
+  width: 75%;
+  border: 5px solid green;
+  padding: 10px;
+  text-align: center;
+}
+
+#upload-success-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+#upload-success-container a{
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 15px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 15px;
+  width: 100px;
+  text-align: center;
+  box-shadow: 1px 1px 2px 0 rgb(136, 136, 136);
+}
